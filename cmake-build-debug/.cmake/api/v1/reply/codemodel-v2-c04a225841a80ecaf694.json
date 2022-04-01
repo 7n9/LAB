@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "C:/Users/7n9/CLionProjects/LAB/Lab-01/output",
+					"jsonFile" : "directory-Lab-01-Debug-e4bfd5d384edfcecc665.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Lab-01",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "C:/Users/7n9/CLionProjects/LAB/Lab-02/output",
+					"jsonFile" : "directory-Lab-02-Debug-4e1eac4ea59602680c0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Lab-02",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "lab01::@69c00b1e0cbd5043ab48",
+					"jsonFile" : "target-lab01-Debug-0510b9b336d88daf0a63.json",
+					"name" : "lab01",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lab02::@90ba6f31117d38bb178e",
+					"jsonFile" : "target-lab02-Debug-e03626f5c9f72c22e54e.json",
+					"name" : "lab02",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/7n9/CLionProjects/LAB/cmake-build-debug",
+		"source" : "C:/Users/7n9/CLionProjects/LAB"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
