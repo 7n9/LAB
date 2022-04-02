@@ -1,4 +1,8 @@
-//
-// Created by 1337k on 02.04.2022.
-//
+#include <stdio.h>
 
+//ARRAYS
+int main(){
+
+
+    return 0;
+}
