@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/7n9/CLionProjects/LAB
+# Install script for directory: C:/Users/1337k/CLionProjects/LAB
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/7n9/CLionProjects/LAB/Lab-01/output/cmake_install.cmake")
+  include("C:/Users/1337k/CLionProjects/LAB/Lab-01/output/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/7n9/CLionProjects/LAB/Lab-02/output/cmake_install.cmake")
+  include("C:/Users/1337k/CLionProjects/LAB/Lab-02/output/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/1337k/CLionProjects/LAB/Lab-03/output/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/7n9/CLionProjects/LAB/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
