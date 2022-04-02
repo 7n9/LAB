@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/1337k/CLionProjects/LAB/Lab-03/output"
+			"value" : "C:/Users/1337k/CLionProjects/LAB/Lab-04/output"
 		},
 		{
 			"name" : "LAB_IS_TOP_LEVEL",
@@ -1183,7 +1183,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/1337k/CLionProjects/LAB/Lab-03"
+			"value" : "C:/Users/1337k/CLionProjects/LAB/Lab-04"
 		},
 		{
 			"name" : "untitled_BINARY_DIR",

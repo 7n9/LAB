@@ -5,7 +5,7 @@
 		<Option title="untitled"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Lab-01\;CMake Files\Lab-02\;CMake Files\Lab-03\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Lab-01\;CMake Files\Lab-02\;CMake Files\Lab-03\;CMake Files\Lab-04\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/cmake-build-debug"/>
@@ -151,6 +151,44 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-03/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="lab04">
+				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-04/output/lab04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-04/output"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 lab04"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab04/fast">
+				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-04/output/lab04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-04/output"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 lab04/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-01/lab01.c">
 			<Option target="lab01"/>
@@ -160,6 +198,9 @@
 		</Unit>
 		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-03/lab03.c">
 			<Option target="lab03"/>
+		</Unit>
+		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-04/lab04.c">
+			<Option target="lab04"/>
 		</Unit>
 		<Unit filename="C:/Users/1337k/CLionProjects/LAB/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -172,6 +213,9 @@
 		</Unit>
 		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-03/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab-03\"/>
+		</Unit>
+		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab-04\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -10,7 +10,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -64,6 +65,21 @@
 					[
 						2
 					]
+				},
+				{
+					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-04/output",
+					"jsonFile" : "directory-Lab-04-Debug-1b26db3dec717cd50cb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Lab-04",
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"name" : "Debug",
@@ -74,7 +90,8 @@
 					[
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"directoryIndexes" : 
 					[
@@ -117,6 +134,18 @@
 					[
 						2
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"targets" : 
@@ -141,6 +170,13 @@
 					"jsonFile" : "target-lab03-Debug-de74b0d05ed5f4331b2a.json",
 					"name" : "lab03",
 					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lab04::@5f9300b759c9e0cfd646",
+					"jsonFile" : "target-lab04-Debug-48930e6f8069e104c1d5.json",
+					"name" : "lab04",
+					"projectIndex" : 4
 				}
 			]
 		}

@@ -124,6 +124,9 @@
 		},
 		{
 			"path" : "Lab-03/CMakeLists.txt"
+		},
+		{
+			"path" : "Lab-04/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

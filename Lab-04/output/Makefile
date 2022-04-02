@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\1337k\CLionProjects\LAB\Lab-04\output\\CMakeFiles\progress.marks
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-04/output/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-04/output/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,70 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-04/output/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-04/output/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named lab01
+# Convenience name for target.
+../Lab-04/output/CMakeFiles/lab04.dir/rule:
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-04/output/CMakeFiles/lab04.dir/rule
+.PHONY : ../Lab-04/output/CMakeFiles/lab04.dir/rule
 
-# Build rule for target.
-lab01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab01
-.PHONY : lab01
-
-# fast build rule for target.
-lab01/fast:
-	$(MAKE) $(MAKESILENT) -f ..\Lab-01\output\CMakeFiles\lab01.dir\build.make ../Lab-01/output/CMakeFiles/lab01.dir/build
-.PHONY : lab01/fast
-
-#=============================================================================
-# Target rules for targets named lab02
-
-# Build rule for target.
-lab02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab02
-.PHONY : lab02
-
-# fast build rule for target.
-lab02/fast:
-	$(MAKE) $(MAKESILENT) -f ..\Lab-02\output\CMakeFiles\lab02.dir\build.make ../Lab-02/output/CMakeFiles/lab02.dir/build
-.PHONY : lab02/fast
-
-#=============================================================================
-# Target rules for targets named lab03
-
-# Build rule for target.
-lab03: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab03
-.PHONY : lab03
-
-# fast build rule for target.
-lab03/fast:
-	$(MAKE) $(MAKESILENT) -f ..\Lab-03\output\CMakeFiles\lab03.dir\build.make ../Lab-03/output/CMakeFiles/lab03.dir/build
-.PHONY : lab03/fast
-
-#=============================================================================
-# Target rules for targets named lab04
-
-# Build rule for target.
-lab04: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab04
+# Convenience name for target.
+lab04: ../Lab-04/output/CMakeFiles/lab04.dir/rule
 .PHONY : lab04
 
 # fast build rule for target.
 lab04/fast:
-	$(MAKE) $(MAKESILENT) -f ..\Lab-04\output\CMakeFiles\lab04.dir\build.make ../Lab-04/output/CMakeFiles/lab04.dir/build
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-04\output\CMakeFiles\lab04.dir\build.make ../Lab-04/output/CMakeFiles/lab04.dir/build
 .PHONY : lab04/fast
+
+lab04.obj: lab04.c.obj
+.PHONY : lab04.obj
+
+# target to build an object file
+lab04.c.obj:
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-04\output\CMakeFiles\lab04.dir\build.make ../Lab-04/output/CMakeFiles/lab04.dir/lab04.c.obj
+.PHONY : lab04.c.obj
+
+lab04.i: lab04.c.i
+.PHONY : lab04.i
+
+# target to preprocess a source file
+lab04.c.i:
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-04\output\CMakeFiles\lab04.dir\build.make ../Lab-04/output/CMakeFiles/lab04.dir/lab04.c.i
+.PHONY : lab04.c.i
+
+lab04.s: lab04.c.s
+.PHONY : lab04.s
+
+# target to generate assembly for a file
+lab04.c.s:
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-04\output\CMakeFiles\lab04.dir\build.make ../Lab-04/output/CMakeFiles/lab04.dir/lab04.c.s
+.PHONY : lab04.c.s
 
 # Help Target
 help:
@@ -175,10 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... lab01
-	@echo ... lab02
-	@echo ... lab03
 	@echo ... lab04
+	@echo ... lab04.obj
+	@echo ... lab04.i
+	@echo ... lab04.s
 .PHONY : help
 
 
@@ -190,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

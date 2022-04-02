@@ -9,3 +9,6 @@ C:/Users/1337k/CLionProjects/LAB/Lab-02/output/CMakeFiles/rebuild_cache.dir
 C:/Users/1337k/CLionProjects/LAB/Lab-03/output/CMakeFiles/rebuild_cache.dir
 C:/Users/1337k/CLionProjects/LAB/Lab-03/output/CMakeFiles/lab03.dir
 C:/Users/1337k/CLionProjects/LAB/Lab-03/output/CMakeFiles/edit_cache.dir
+C:/Users/1337k/CLionProjects/LAB/Lab-04/output/CMakeFiles/edit_cache.dir
+C:/Users/1337k/CLionProjects/LAB/Lab-04/output/CMakeFiles/lab04.dir
+C:/Users/1337k/CLionProjects/LAB/Lab-04/output/CMakeFiles/rebuild_cache.dir
