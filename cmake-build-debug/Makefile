@@ -167,6 +167,19 @@ lab04/fast:
 	$(MAKE) $(MAKESILENT) -f ..\Lab-04\output\CMakeFiles\lab04.dir\build.make ../Lab-04/output/CMakeFiles/lab04.dir/build
 .PHONY : lab04/fast
 
+#=============================================================================
+# Target rules for targets named lab05
+
+# Build rule for target.
+lab05: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab05
+.PHONY : lab05
+
+# fast build rule for target.
+lab05/fast:
+	$(MAKE) $(MAKESILENT) -f ..\Lab-05-functions\output\CMakeFiles\lab05.dir\build.make ../Lab-05-functions/output/CMakeFiles/lab05.dir/build
+.PHONY : lab05/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -179,6 +192,7 @@ help:
 	@echo ... lab02
 	@echo ... lab03
 	@echo ... lab04
+	@echo ... lab05
 .PHONY : help
 
 
