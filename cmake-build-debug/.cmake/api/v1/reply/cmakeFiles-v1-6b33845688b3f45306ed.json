@@ -130,6 +130,9 @@
 		},
 		{
 			"path" : "Lab-05-functions/CMakeLists.txt"
+		},
+		{
+			"path" : "windowtest/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -36,6 +36,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.21.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeSystem.cmake"
+  "../windowtest/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -52,6 +53,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "../Lab-03/output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../Lab-04/output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../Lab-05-functions/output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "../windowtest/output/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -61,4 +63,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "../Lab-03/output/CMakeFiles/lab03.dir/DependInfo.cmake"
   "../Lab-04/output/CMakeFiles/lab04.dir/DependInfo.cmake"
   "../Lab-05-functions/output/CMakeFiles/lab05.dir/DependInfo.cmake"
+  "../windowtest/output/CMakeFiles/windowtest.dir/DependInfo.cmake"
   )

@@ -8,3 +8,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-02" "${PROJECT_SOURCE_DIR}/Lab-02/ou
 add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-03" "${PROJECT_SOURCE_DIR}/Lab-03/output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-04" "${PROJECT_SOURCE_DIR}/Lab-04/output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-05-functions" "${PROJECT_SOURCE_DIR}/Lab-05-functions/output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/windowtest" "${PROJECT_SOURCE_DIR}/windowtest/output")

@@ -12,7 +12,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -96,6 +97,21 @@
 					[
 						4
 					]
+				},
+				{
+					"build" : "C:/Users/1337k/CLionProjects/LAB/windowtest/output",
+					"jsonFile" : "directory-windowtest-Debug-42f8012b46dd235e393b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "windowtest",
+					"targetIndexes" : 
+					[
+						5
+					]
 				}
 			],
 			"name" : "Debug",
@@ -108,7 +124,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"directoryIndexes" : 
 					[
@@ -175,6 +192,18 @@
 					[
 						4
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
 				}
 			],
 			"targets" : 
@@ -213,6 +242,13 @@
 					"jsonFile" : "target-lab05-Debug-b5bf98e7486f0c576483.json",
 					"name" : "lab05",
 					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "windowtest::@220ba5afbfba288b5bd0",
+					"jsonFile" : "target-windowtest-Debug-2eeb1403d3ff130fcf44.json",
+					"name" : "windowtest",
+					"projectIndex" : 6
 				}
 			]
 		}

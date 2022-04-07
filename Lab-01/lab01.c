@@ -70,7 +70,7 @@ void notka(){
     float iloczyn = c*d;
     float iloraz = c/d;
     printf("==================================\n"
-           "Program \"Lab001-Notka+Dzialania\"\n"
+           "Program \"Lab001z2-Notka+Dzialania\"\n"
            "Autor: Krzysztof Brzoska\n"
            "AiIP semestr 2\n"
            "==================================\n"
@@ -93,7 +93,7 @@ void zmienne(){
     double c = 1.32;
     char d[10] = "abcd";
     printf("==================================\n"
-           "Program \"Lab001-Formatowanie zmiennych\"\n"
+           "Program \"Lab001z3-Formatowanie zmiennych\"\n"
            "Autor: Krzysztof Brzoska\n"
            "AiIP semestr 2\n"
            "==================================\n"
