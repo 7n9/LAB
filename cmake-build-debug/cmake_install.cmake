@@ -67,6 +67,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/1337k/CLionProjects/LAB/windowtest/output/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

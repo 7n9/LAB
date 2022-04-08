@@ -133,6 +133,9 @@
 		},
 		{
 			"path" : "windowtest/CMakeLists.txt"
+		},
+		{
+			"path" : "Lab-06-inf/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -4,19 +4,21 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
-const char helloWorld[] = "Hello world";
+const char hWrld[] = "Hello world";
 
 void z1a(){
-/*    for(int i = 0; i<4; i++){
- *       printf("Hello world 0%d ",i+1);  //why not?
- *   }
- *   printf("\n");
- */
-    printf("Hello world 01 ");
-    printf("Hello world 02 ");
-    printf("Hello world 03 ");
-    printf("Hello world 04\n");
+    /*
+    for(int i = 0; i<4; i++){
+       printf("%s 0%d ", hWrld, i+1);  //why not?
+    }
+    printf("\n");
+    */
+    printf("%s 01 ", hWrld);
+    printf("%s 02 ", hWrld);
+    printf("%s 03 ", hWrld);
+    printf("%s 04\n", hWrld);
  }
 
 void z1b(){
@@ -26,9 +28,8 @@ void z1b(){
 }
 
 void z1c(){
-    for(int i = 0; i<sizeof(helloWorld); i++){
-        printf("%c\n",helloWorld[i]);
-    }
+    // for(int i = 0; i<sizeof(hWrld); i++){printf("%c\n", hWrld[i]);}
+    printf("H\ne\nl\nl\no\n\nw\no\nr\nl\nd\n");
 }
 
 
@@ -119,6 +120,7 @@ void inicjaly(){
 }
 
 int main(){
+    sleep(1);
     int decyzja;
     system("cls");
     _L2:printf("Wybierz zadanie do uruchomienia:\n"
