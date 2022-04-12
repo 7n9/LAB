@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\1337k\CLionProjects\LAB
+CMAKE_SOURCE_DIR = C:\Users\k0h3z\CLionProjects\LAB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\1337k\CLionProjects\LAB\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\1337k\CLionProjects\LAB\Lab-07\output\\CMakeFiles\progress.marks
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\k0h3z\CLionProjects\LAB\Lab-07\output\\CMakeFiles\progress.marks
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/clean
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,39 +102,39 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/preinstall
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/preinstall
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-../Lab-07/output/CMakeFiles/lab07.c.dir/rule:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/CMakeFiles/lab07.c.dir/rule
-.PHONY : ../Lab-07/output/CMakeFiles/lab07.c.dir/rule
+../Lab-07/output/CMakeFiles/lab07.dir/rule:
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/CMakeFiles/lab07.dir/rule
+.PHONY : ../Lab-07/output/CMakeFiles/lab07.dir/rule
 
 # Convenience name for target.
-lab07.c: ../Lab-07/output/CMakeFiles/lab07.c.dir/rule
-.PHONY : lab07.c
+lab07: ../Lab-07/output/CMakeFiles/lab07.dir/rule
+.PHONY : lab07
 
 # fast build rule for target.
-lab07.c/fast:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.c.dir\build.make ../Lab-07/output/CMakeFiles/lab07.c.dir/build
-.PHONY : lab07.c/fast
+lab07/fast:
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.dir\build.make ../Lab-07/output/CMakeFiles/lab07.dir/build
+.PHONY : lab07/fast
 
 lab07.obj: lab07.c.obj
 .PHONY : lab07.obj
 
 # target to build an object file
 lab07.c.obj:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.c.dir\build.make ../Lab-07/output/CMakeFiles/lab07.c.dir/lab07.c.obj
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.dir\build.make ../Lab-07/output/CMakeFiles/lab07.dir/lab07.c.obj
 .PHONY : lab07.c.obj
 
 lab07.i: lab07.c.i
@@ -142,7 +142,7 @@ lab07.i: lab07.c.i
 
 # target to preprocess a source file
 lab07.c.i:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.c.dir\build.make ../Lab-07/output/CMakeFiles/lab07.c.dir/lab07.c.i
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.dir\build.make ../Lab-07/output/CMakeFiles/lab07.dir/lab07.c.i
 .PHONY : lab07.c.i
 
 lab07.s: lab07.c.s
@@ -150,7 +150,7 @@ lab07.s: lab07.c.s
 
 # target to generate assembly for a file
 lab07.c.s:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.c.dir\build.make ../Lab-07/output/CMakeFiles/lab07.c.dir/lab07.c.s
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.dir\build.make ../Lab-07/output/CMakeFiles/lab07.dir/lab07.c.s
 .PHONY : lab07.c.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... lab07.c
+	@echo ... lab07
 	@echo ... lab07.obj
 	@echo ... lab07.i
 	@echo ... lab07.s
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

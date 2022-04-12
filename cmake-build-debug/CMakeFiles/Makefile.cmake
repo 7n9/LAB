@@ -69,5 +69,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "../Lab-05-functions/output/CMakeFiles/lab05.dir/DependInfo.cmake"
   "../windowtest/output/CMakeFiles/windowtest.dir/DependInfo.cmake"
   "../Lab-06-inf/output/CMakeFiles/lab06.dir/DependInfo.cmake"
-  "../Lab-07/output/CMakeFiles/lab07.c.dir/DependInfo.cmake"
+  "../Lab-07/output/CMakeFiles/lab07.dir/DependInfo.cmake"
   )

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/1337k/CLionProjects/LAB/Lab-07/lab07.c" "../Lab-07/output/CMakeFiles/lab07.c.dir/lab07.c.obj" "gcc" "../Lab-07/output/CMakeFiles/lab07.c.dir/lab07.c.obj.d"
+  "C:/Users/k0h3z/CLionProjects/LAB/Lab-07/lab07.c" "../Lab-07/output/CMakeFiles/lab07.c.dir/lab07.c.obj" "gcc" "../Lab-07/output/CMakeFiles/lab07.c.dir/lab07.c.obj.d"
   )
 
 # Targets to which this target links.

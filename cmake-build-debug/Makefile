@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\1337k\CLionProjects\LAB
+CMAKE_SOURCE_DIR = C:\Users\k0h3z\CLionProjects\LAB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\1337k\CLionProjects\LAB\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -207,17 +207,17 @@ lab06/fast:
 .PHONY : lab06/fast
 
 #=============================================================================
-# Target rules for targets named lab07.c
+# Target rules for targets named lab07
 
 # Build rule for target.
-lab07.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab07.c
-.PHONY : lab07.c
+lab07: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab07
+.PHONY : lab07
 
 # fast build rule for target.
-lab07.c/fast:
-	$(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.c.dir\build.make ../Lab-07/output/CMakeFiles/lab07.c.dir/build
-.PHONY : lab07.c/fast
+lab07/fast:
+	$(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.dir\build.make ../Lab-07/output/CMakeFiles/lab07.dir/build
+.PHONY : lab07/fast
 
 # Help Target
 help:
@@ -233,7 +233,7 @@ help:
 	@echo ... lab04
 	@echo ... lab05
 	@echo ... lab06
-	@echo ... lab07.c
+	@echo ... lab07
 	@echo ... windowtest
 .PHONY : help
 
