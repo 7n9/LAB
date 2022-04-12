@@ -136,6 +136,9 @@
 		},
 		{
 			"path" : "Lab-06-inf/CMakeLists.txt"
+		},
+		{
+			"path" : "Lab-07/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

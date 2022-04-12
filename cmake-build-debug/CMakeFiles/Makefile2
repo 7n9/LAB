@@ -149,6 +149,21 @@ CMAKE_BINARY_DIR = C:\Users\1337k\CLionProjects\LAB\cmake-build-debug
 .PHONY : ../Lab-06-inf/output/clean
 
 #=============================================================================
+# Directory level rules for directory ../Lab-07/output
+
+# Recursive "all" directory target.
+../Lab-07/output/all: ../Lab-07/output/CMakeFiles/lab07.c.dir/all
+.PHONY : ../Lab-07/output/all
+
+# Recursive "preinstall" directory target.
+../Lab-07/output/preinstall:
+.PHONY : ../Lab-07/output/preinstall
+
+# Recursive "clean" directory target.
+../Lab-07/output/clean: ../Lab-07/output/CMakeFiles/lab07.c.dir/clean
+.PHONY : ../Lab-07/output/clean
+
+#=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
@@ -159,6 +174,7 @@ all: ../Lab-04/output/all
 all: ../Lab-05-functions/output/all
 all: ../windowtest/output/all
 all: ../Lab-06-inf/output/all
+all: ../Lab-07/output/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -169,6 +185,7 @@ preinstall: ../Lab-04/output/preinstall
 preinstall: ../Lab-05-functions/output/preinstall
 preinstall: ../windowtest/output/preinstall
 preinstall: ../Lab-06-inf/output/preinstall
+preinstall: ../Lab-07/output/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -179,6 +196,7 @@ clean: ../Lab-04/output/clean
 clean: ../Lab-05-functions/output/clean
 clean: ../windowtest/output/clean
 clean: ../Lab-06-inf/output/clean
+clean: ../Lab-07/output/clean
 .PHONY : clean
 
 #=============================================================================
@@ -333,7 +351,7 @@ lab05: ../Lab-05-functions/output/CMakeFiles/lab05.dir/rule
 ../windowtest/output/CMakeFiles/windowtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f ..\windowtest\output\CMakeFiles\windowtest.dir\build.make ../windowtest/output/CMakeFiles/windowtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f ..\windowtest\output\CMakeFiles\windowtest.dir\build.make ../windowtest/output/CMakeFiles/windowtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target windowtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target windowtest"
 .PHONY : ../windowtest/output/CMakeFiles/windowtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -377,6 +395,32 @@ lab06: ../Lab-06-inf/output/CMakeFiles/lab06.dir/rule
 ../Lab-06-inf/output/CMakeFiles/lab06.dir/clean:
 	$(MAKE) $(MAKESILENT) -f ..\Lab-06-inf\output\CMakeFiles\lab06.dir\build.make ../Lab-06-inf/output/CMakeFiles/lab06.dir/clean
 .PHONY : ../Lab-06-inf/output/CMakeFiles/lab06.dir/clean
+
+#=============================================================================
+# Target rules for target ../Lab-07/output/CMakeFiles/lab07.c.dir
+
+# All Build rule for target.
+../Lab-07/output/CMakeFiles/lab07.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.c.dir\build.make ../Lab-07/output/CMakeFiles/lab07.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.c.dir\build.make ../Lab-07/output/CMakeFiles/lab07.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target lab07.c"
+.PHONY : ../Lab-07/output/CMakeFiles/lab07.c.dir/all
+
+# Build rule for subdir invocation for target.
+../Lab-07/output/CMakeFiles/lab07.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-07/output/CMakeFiles/lab07.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
+.PHONY : ../Lab-07/output/CMakeFiles/lab07.c.dir/rule
+
+# Convenience name for target.
+lab07.c: ../Lab-07/output/CMakeFiles/lab07.c.dir/rule
+.PHONY : lab07.c
+
+# clean rule for target.
+../Lab-07/output/CMakeFiles/lab07.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ..\Lab-07\output\CMakeFiles\lab07.c.dir\build.make ../Lab-07/output/CMakeFiles/lab07.c.dir/clean
+.PHONY : ../Lab-07/output/CMakeFiles/lab07.c.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

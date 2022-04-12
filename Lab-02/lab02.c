@@ -5,16 +5,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 
 int main(){
-
-    int maks = 100;
-    int min = 10;
-    srand(time(NULL));
-
-    for(int i = 0; i<100; i++){
-        int los = min + rand() % (maks+1-min);
-        printf("\r[%s]");
+int i;
+    while(i<100000){
+        printf("malloc %p\n", malloc(1024*1024));
+        i += 1;
     }
+    sleep(10);
     return 0;
 }

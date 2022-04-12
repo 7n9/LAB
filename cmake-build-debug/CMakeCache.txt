@@ -216,13 +216,13 @@ CMAKE_STRIP:FILEPATH=C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/str
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-LAB_BINARY_DIR:STATIC=C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output
+LAB_BINARY_DIR:STATIC=C:/Users/1337k/CLionProjects/LAB/Lab-07/output
 
 //Value Computed by CMake
 LAB_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-LAB_SOURCE_DIR:STATIC=C:/Users/1337k/CLionProjects/LAB/Lab-06-inf
+LAB_SOURCE_DIR:STATIC=C:/Users/1337k/CLionProjects/LAB/Lab-07
 
 //Value Computed by CMake
 untitled_BINARY_DIR:STATIC=C:/Users/1337k/CLionProjects/LAB/cmake-build-debug
@@ -324,7 +324,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -14,7 +14,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -111,7 +112,7 @@
 					"source" : "windowtest",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -128,6 +129,21 @@
 					[
 						5
 					]
+				},
+				{
+					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-07/output",
+					"jsonFile" : "directory-Lab-07-Debug-f42921e565d36ee236e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "Lab-07",
+					"targetIndexes" : 
+					[
+						6
+					]
 				}
 			],
 			"name" : "Debug",
@@ -142,7 +158,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					],
 					"directoryIndexes" : 
 					[
@@ -219,7 +236,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -232,6 +249,18 @@
 					"targetIndexes" : 
 					[
 						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
 					]
 				}
 			],
@@ -278,6 +307,13 @@
 					"jsonFile" : "target-lab06-Debug-e63626986fdc6ade46b2.json",
 					"name" : "lab06",
 					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "lab07.c::@60949a4e2a742d8a7b47",
+					"jsonFile" : "target-lab07.c-Debug-c8cb2c45b346b64b1d73.json",
+					"name" : "lab07.c",
+					"projectIndex" : 8
 				},
 				{
 					"directoryIndex" : 6,
