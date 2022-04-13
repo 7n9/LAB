@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/lab06.exe"
+			"path" : "C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/lab06.exe"
 		},
 		{
-			"path" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/lab06.pdb"
+			"path" : "C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/lab06.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "lab06::@dee741658b6f1b238866",
+	"id" : "lab06::@7c42db50fa19ce18f11f",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -83,7 +83,7 @@
 	"nameOnDisk" : "lab06.exe",
 	"paths" : 
 	{
-		"build" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output",
+		"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output",
 		"source" : "Lab-06-inf"
 	},
 	"sourceGroups" : 

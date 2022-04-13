@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-07/output/lab07.exe"
+			"path" : "C:/Users/1337k/CLionProjects/LAB/Lab-07/output/lab07.exe"
 		},
 		{
-			"path" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-07/output/lab07.pdb"
+			"path" : "C:/Users/1337k/CLionProjects/LAB/Lab-07/output/lab07.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "lab07::@4bd4323e38bd167e661e",
+	"id" : "lab07::@60949a4e2a742d8a7b47",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -83,7 +83,7 @@
 	"nameOnDisk" : "lab07.exe",
 	"paths" : 
 	{
-		"build" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-07/output",
+		"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-07/output",
 		"source" : "Lab-07"
 	},
 	"sourceGroups" : 

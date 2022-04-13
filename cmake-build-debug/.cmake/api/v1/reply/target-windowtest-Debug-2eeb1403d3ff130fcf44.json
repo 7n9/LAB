@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/windowtest.exe"
+			"path" : "C:/Users/1337k/CLionProjects/LAB/windowtest/output/windowtest.exe"
 		},
 		{
-			"path" : "C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/windowtest.pdb"
+			"path" : "C:/Users/1337k/CLionProjects/LAB/windowtest/output/windowtest.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "windowtest::@6fb27c1dce2c28bb69bf",
+	"id" : "windowtest::@220ba5afbfba288b5bd0",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -83,7 +83,7 @@
 	"nameOnDisk" : "windowtest.exe",
 	"paths" : 
 	{
-		"build" : "C:/Users/k0h3z/CLionProjects/LAB/windowtest/output",
+		"build" : "C:/Users/1337k/CLionProjects/LAB/windowtest/output",
 		"source" : "windowtest"
 	},
 	"sourceGroups" : 
