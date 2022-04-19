@@ -150,7 +150,7 @@ lab01.s: lab01.c.s
 
 # target to generate assembly for a file
 lab01.c.s:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-01\output\CMakeFiles\lab01.dir\build.make ../Lab-01/output/CMakeFiles/lab01.dir/lab01.c.s
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-01\output\CMakeFiles\lab01.dir\build.make ../Lab-01/output/CMakeFiles/lab01.dir/lab01.c.s
 .PHONY : lab01.c.s
 
 # Help Target
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

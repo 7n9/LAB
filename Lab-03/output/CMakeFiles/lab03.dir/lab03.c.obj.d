@@ -1,5 +1,5 @@
 ../Lab-03/output/CMakeFiles/lab03.dir/lab03.c.obj: \
- C:\Users\1337k\CLionProjects\LAB\Lab-03\lab03.c \
+ C:\Users\k0h3z\CLionProjects\LAB\Lab-03\lab03.c \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
