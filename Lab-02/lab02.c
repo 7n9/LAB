@@ -96,14 +96,14 @@ void z4(){
             printf("Podana liczba musi byc nieparzysta, powtorz.\n");
         }
     } while (wysokosc%2==0); //zapetlenie dopoki warunek nie zostanie spelniony
-    for(int i=0;i<wysokosc;i++){ //petla wyswietlajaca coraz wieksza ilosc znakow
-        for(int j=0; j<i+1;j++){
+    for(int i=1;i<wysokosc-(i-2);i++){ //petla wyswietlajaca coraz wieksza ilosc znakow
+        for(int j=1; j<2*i;j++){
             printf("*");
         }
         printf("\n");
     }
-    for(int i=wysokosc-1;i>0;i--){ //petla wyswietlajaca coraz mniejsza ilosc znakow
-        for(int j=i; j>0;j--){
+    for(int i=wysokosc-1;i>0;i-=2){ //petla wyswietlajaca coraz mniejsza ilosc znakow
+        for(int j=i-1; j>0;j-=1){
             printf("*");
         }
         printf("\n");
