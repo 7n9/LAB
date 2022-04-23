@@ -28,10 +28,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
+  "../IiPP-03/CMakeLists.txt"
   "../Lab-01/CMakeLists.txt"
-  "../Lab-02-test/CMakeLists.txt"
   "../Lab-02/CMakeLists.txt"
-  "../Lab-03/CMakeLists.txt"
   "../Lab-04/CMakeLists.txt"
   "../Lab-05-functions/CMakeLists.txt"
   "../Lab-06-inf/CMakeLists.txt"
@@ -51,23 +50,21 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "../Lab-01/output/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "../Lab-02-test/output/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "../Lab-03/output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "../Lab-02/output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../Lab-04/output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../Lab-05-functions/output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../windowtest/output/CMakeFiles/CMakeDirectoryInformation.cmake"
   "../Lab-06-inf/output/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "../Lab-02/output/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "../IiPP-03/output/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "../Lab-01/output/CMakeFiles/lab01.dir/DependInfo.cmake"
-  "../Lab-02-test/output/CMakeFiles/lab02-test.dir/DependInfo.cmake"
-  "../Lab-03/output/CMakeFiles/lab03.dir/DependInfo.cmake"
+  "../Lab-02/output/CMakeFiles/lab02.dir/DependInfo.cmake"
   "../Lab-04/output/CMakeFiles/lab04.dir/DependInfo.cmake"
   "../Lab-05-functions/output/CMakeFiles/lab05.dir/DependInfo.cmake"
   "../windowtest/output/CMakeFiles/windowtest.dir/DependInfo.cmake"
   "../Lab-06-inf/output/CMakeFiles/lab06.dir/DependInfo.cmake"
-  "../Lab-02/output/CMakeFiles/lab02.dir/DependInfo.cmake"
+  "../IiPP-03/output/CMakeFiles/IiPP-03.dir/DependInfo.cmake"
   )

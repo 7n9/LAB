@@ -1,0 +1,303 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-01/output",
+					"jsonFile" : "directory-Lab-01-Debug-fe5d4adae9063b2da86c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Lab-01",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-02/output",
+					"jsonFile" : "directory-Lab-02-Debug-16173d852a47c8f97270.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Lab-02",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-04/output",
+					"jsonFile" : "directory-Lab-04-Debug-1b26db3dec717cd50cb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Lab-04",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output",
+					"jsonFile" : "directory-Lab-05-functions-Debug-6a285fb86be9b7c831a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Lab-05-functions",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "C:/Users/1337k/CLionProjects/LAB/windowtest/output",
+					"jsonFile" : "directory-windowtest-Debug-42f8012b46dd235e393b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "windowtest",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output",
+					"jsonFile" : "directory-Lab-06-inf-Debug-fea8ff1744ba56072fb4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "Lab-06-inf",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "C:/Users/1337k/CLionProjects/LAB/IiPP-03/output",
+					"jsonFile" : "directory-IiPP-03-Debug-ea2dee68cf3f88fd9cf5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "IiPP-03",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "LAB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "IiPP-03::@8c9b540be7d59e3f1477",
+					"jsonFile" : "target-IiPP-03-Debug-8f7f46b66b84d8834975.json",
+					"name" : "IiPP-03",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lab01::@5edb2a981c3cfd41b0d8",
+					"jsonFile" : "target-lab01-Debug-4441d1c0ffb65344bc2c.json",
+					"name" : "lab01",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lab02::@95d49279ab2c1434b8a2",
+					"jsonFile" : "target-lab02-Debug-9eea38dfd75f6f152ee2.json",
+					"name" : "lab02",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lab04::@5f9300b759c9e0cfd646",
+					"jsonFile" : "target-lab04-Debug-48930e6f8069e104c1d5.json",
+					"name" : "lab04",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "lab05::@8debbc7f46a737ee869e",
+					"jsonFile" : "target-lab05-Debug-b5bf98e7486f0c576483.json",
+					"name" : "lab05",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "lab06::@7c42db50fa19ce18f11f",
+					"jsonFile" : "target-lab06-Debug-e63626986fdc6ade46b2.json",
+					"name" : "lab06",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "windowtest::@220ba5afbfba288b5bd0",
+					"jsonFile" : "target-windowtest-Debug-2eeb1403d3ff130fcf44.json",
+					"name" : "windowtest",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/1337k/CLionProjects/LAB/cmake-build-debug",
+		"source" : "C:/Users/1337k/CLionProjects/LAB"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

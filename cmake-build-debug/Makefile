@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\k0h3z\CLionProjects\LAB
+CMAKE_SOURCE_DIR = C:\Users\1337k\CLionProjects\LAB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\1337k\CLionProjects\LAB\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,30 +129,17 @@ lab01/fast:
 .PHONY : lab01/fast
 
 #=============================================================================
-# Target rules for targets named lab02-test
+# Target rules for targets named lab02
 
 # Build rule for target.
-lab02-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab02-test
-.PHONY : lab02-test
+lab02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab02
+.PHONY : lab02
 
 # fast build rule for target.
-lab02-test/fast:
-	$(MAKE) $(MAKESILENT) -f ..\Lab-02-test\output\CMakeFiles\lab02-test.dir\build.make ../Lab-02-test/output/CMakeFiles/lab02-test.dir/build
-.PHONY : lab02-test/fast
-
-#=============================================================================
-# Target rules for targets named lab03
-
-# Build rule for target.
-lab03: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab03
-.PHONY : lab03
-
-# fast build rule for target.
-lab03/fast:
-	$(MAKE) $(MAKESILENT) -f ..\Lab-03\output\CMakeFiles\lab03.dir\build.make ../Lab-03/output/CMakeFiles/lab03.dir/build
-.PHONY : lab03/fast
+lab02/fast:
+	$(MAKE) $(MAKESILENT) -f ..\Lab-02\output\CMakeFiles\lab02.dir\build.make ../Lab-02/output/CMakeFiles/lab02.dir/build
+.PHONY : lab02/fast
 
 #=============================================================================
 # Target rules for targets named lab04
@@ -207,17 +194,17 @@ lab06/fast:
 .PHONY : lab06/fast
 
 #=============================================================================
-# Target rules for targets named lab02
+# Target rules for targets named IiPP-03
 
 # Build rule for target.
-lab02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab02
-.PHONY : lab02
+IiPP-03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 IiPP-03
+.PHONY : IiPP-03
 
 # fast build rule for target.
-lab02/fast:
-	$(MAKE) $(MAKESILENT) -f ..\Lab-02\output\CMakeFiles\lab02.dir\build.make ../Lab-02/output/CMakeFiles/lab02.dir/build
-.PHONY : lab02/fast
+IiPP-03/fast:
+	$(MAKE) $(MAKESILENT) -f ..\IiPP-03\output\CMakeFiles\IiPP-03.dir\build.make ../IiPP-03/output/CMakeFiles/IiPP-03.dir/build
+.PHONY : IiPP-03/fast
 
 # Help Target
 help:
@@ -227,10 +214,9 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... IiPP-03
 	@echo ... lab01
 	@echo ... lab02
-	@echo ... lab02-test
-	@echo ... lab03
 	@echo ... lab04
 	@echo ... lab05
 	@echo ... lab06
