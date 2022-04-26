@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/IiPP-03.exe"
+			"path" : "C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/IiPP-03.exe"
 		},
 		{
-			"path" : "C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/IiPP-03.pdb"
+			"path" : "C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/IiPP-03.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "IiPP-03::@8c9b540be7d59e3f1477",
+	"id" : "IiPP-03::@48d9387dc43b558523c7",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -83,7 +83,7 @@
 	"nameOnDisk" : "IiPP-03.exe",
 	"paths" : 
 	{
-		"build" : "C:/Users/1337k/CLionProjects/LAB/IiPP-03/output",
+		"build" : "C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output",
 		"source" : "IiPP-03"
 	},
 	"sourceGroups" : 

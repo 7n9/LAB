@@ -25,8 +25,8 @@
 					"source" : "."
 				},
 				{
-					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-01/output",
-					"jsonFile" : "directory-Lab-01-Debug-fe5d4adae9063b2da86c.json",
+					"build" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output",
+					"jsonFile" : "directory-Lab-01-Debug-7f1ccb4fa3511ec16117.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.21"
@@ -40,8 +40,8 @@
 					]
 				},
 				{
-					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-02/output",
-					"jsonFile" : "directory-Lab-02-Debug-16173d852a47c8f97270.json",
+					"build" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output",
+					"jsonFile" : "directory-Lab-02-Debug-2d452fdc253d0255cd44.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.21"
@@ -55,8 +55,8 @@
 					]
 				},
 				{
-					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-04/output",
-					"jsonFile" : "directory-Lab-04-Debug-1b26db3dec717cd50cb8.json",
+					"build" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output",
+					"jsonFile" : "directory-Lab-04-Debug-61efd75f66baab8407b2.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.21"
@@ -70,8 +70,8 @@
 					]
 				},
 				{
-					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output",
-					"jsonFile" : "directory-Lab-05-functions-Debug-6a285fb86be9b7c831a4.json",
+					"build" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output",
+					"jsonFile" : "directory-Lab-05-functions-Debug-164bb047056e846d323b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.21"
@@ -85,8 +85,8 @@
 					]
 				},
 				{
-					"build" : "C:/Users/1337k/CLionProjects/LAB/windowtest/output",
-					"jsonFile" : "directory-windowtest-Debug-42f8012b46dd235e393b.json",
+					"build" : "C:/Users/k0h3z/CLionProjects/LAB/windowtest/output",
+					"jsonFile" : "directory-windowtest-Debug-8d16ea098b0a36f9bc18.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.21"
@@ -100,8 +100,8 @@
 					]
 				},
 				{
-					"build" : "C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output",
-					"jsonFile" : "directory-Lab-06-inf-Debug-fea8ff1744ba56072fb4.json",
+					"build" : "C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output",
+					"jsonFile" : "directory-Lab-06-inf-Debug-1ef6af7fe8a2acb21350.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.21"
@@ -115,8 +115,8 @@
 					]
 				},
 				{
-					"build" : "C:/Users/1337k/CLionProjects/LAB/IiPP-03/output",
-					"jsonFile" : "directory-IiPP-03-Debug-ea2dee68cf3f88fd9cf5.json",
+					"build" : "C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output",
+					"jsonFile" : "directory-IiPP-03-Debug-abe34d3c704cc15cb4fd.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.21"
@@ -239,50 +239,50 @@
 			[
 				{
 					"directoryIndex" : 7,
-					"id" : "IiPP-03::@8c9b540be7d59e3f1477",
-					"jsonFile" : "target-IiPP-03-Debug-8f7f46b66b84d8834975.json",
+					"id" : "IiPP-03::@48d9387dc43b558523c7",
+					"jsonFile" : "target-IiPP-03-Debug-931da635ba88a321f701.json",
 					"name" : "IiPP-03",
 					"projectIndex" : 7
 				},
 				{
 					"directoryIndex" : 1,
-					"id" : "lab01::@5edb2a981c3cfd41b0d8",
-					"jsonFile" : "target-lab01-Debug-4441d1c0ffb65344bc2c.json",
+					"id" : "lab01::@5fe82ba7aaafcc4d362f",
+					"jsonFile" : "target-lab01-Debug-4ca6917b9b03b446428d.json",
 					"name" : "lab01",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "lab02::@95d49279ab2c1434b8a2",
-					"jsonFile" : "target-lab02-Debug-9eea38dfd75f6f152ee2.json",
+					"id" : "lab02::@9d625636216ae4c2424b",
+					"jsonFile" : "target-lab02-Debug-8d9b49dc622a3ecbb7c3.json",
 					"name" : "lab02",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 3,
-					"id" : "lab04::@5f9300b759c9e0cfd646",
-					"jsonFile" : "target-lab04-Debug-48930e6f8069e104c1d5.json",
+					"id" : "lab04::@fcfbc29e1589fff2dabe",
+					"jsonFile" : "target-lab04-Debug-96b3e5bba3b45c86d08f.json",
 					"name" : "lab04",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 4,
-					"id" : "lab05::@8debbc7f46a737ee869e",
-					"jsonFile" : "target-lab05-Debug-b5bf98e7486f0c576483.json",
+					"id" : "lab05::@907cda67b46444a04f8f",
+					"jsonFile" : "target-lab05-Debug-fb7b7a434d245206a624.json",
 					"name" : "lab05",
 					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 6,
-					"id" : "lab06::@7c42db50fa19ce18f11f",
-					"jsonFile" : "target-lab06-Debug-e63626986fdc6ade46b2.json",
+					"id" : "lab06::@dee741658b6f1b238866",
+					"jsonFile" : "target-lab06-Debug-8a5374b8a4ed206edd4a.json",
 					"name" : "lab06",
 					"projectIndex" : 6
 				},
 				{
 					"directoryIndex" : 5,
-					"id" : "windowtest::@220ba5afbfba288b5bd0",
-					"jsonFile" : "target-windowtest-Debug-2eeb1403d3ff130fcf44.json",
+					"id" : "windowtest::@6fb27c1dce2c28bb69bf",
+					"jsonFile" : "target-windowtest-Debug-b95aa86af27544bc6ba6.json",
 					"name" : "windowtest",
 					"projectIndex" : 5
 				}
@@ -292,8 +292,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/1337k/CLionProjects/LAB/cmake-build-debug",
-		"source" : "C:/Users/1337k/CLionProjects/LAB"
+		"build" : "C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug",
+		"source" : "C:/Users/k0h3z/CLionProjects/LAB"
 	},
 	"version" : 
 	{

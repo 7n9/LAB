@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\Lab-01\;CMake Files\Lab-02\;CMake Files\Lab-04\;CMake Files\Lab-05-functions\;CMake Files\windowtest\;CMake Files\Lab-06-inf\;CMake Files\IiPP-03\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/cmake-build-debug"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/cmake-build-debug"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/cmake-build-debug"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab01">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-01/output/lab01.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-01/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output/lab01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -50,15 +50,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 lab01"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 lab01"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab01/fast">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-01/output/lab01.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-01/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output/lab01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,15 +69,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 lab01/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 lab01/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab02">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-02/output/lab02.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-02/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output/lab02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -88,15 +88,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 lab02"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 lab02"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab02/fast">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-02/output/lab02.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-02/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output/lab02.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -107,15 +107,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 lab02/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 lab02/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-02/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab04">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-04/output/lab04.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-04/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output/lab04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -126,15 +126,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 lab04"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 lab04"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab04/fast">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-04/output/lab04.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-04/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output/lab04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -145,15 +145,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 lab04/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 lab04/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-04/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab05">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output/lab05.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output/lab05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -164,15 +164,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 lab05"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 lab05"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab05/fast">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output/lab05.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output/lab05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -183,15 +183,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 lab05/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 lab05/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="windowtest">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/windowtest/output/windowtest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/windowtest/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/windowtest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/windowtest/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -202,15 +202,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 windowtest"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 windowtest"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="windowtest/fast">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/windowtest/output/windowtest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/windowtest/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/windowtest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/windowtest/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -221,15 +221,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 windowtest/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 windowtest/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/windowtest/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab06">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/lab06.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/lab06.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -240,15 +240,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 lab06"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 lab06"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lab06/fast">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/lab06.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/lab06.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -259,15 +259,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 lab06/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 lab06/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="IiPP-03">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/IiPP-03.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/IiPP-03/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/IiPP-03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -278,15 +278,15 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 IiPP-03"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 IiPP-03"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="IiPP-03/fast">
-				<Option output="C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/IiPP-03.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/1337k/CLionProjects/LAB/IiPP-03/output"/>
+				<Option output="C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/IiPP-03.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -297,56 +297,56 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 IiPP-03/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/1337k/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 IiPP-03/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/output/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/IiPP-03/IiPP-03.c">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/IiPP-03.c">
 			<Option target="IiPP-03"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-01/lab01.c">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/Lab-01/lab01.c">
 			<Option target="lab01"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-02/lab02.c">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/Lab-02/lab02.c">
 			<Option target="lab02"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-04/lab04.c">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/Lab-04/lab04.c">
 			<Option target="lab04"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/lab05.c">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/lab05.c">
 			<Option target="lab05"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/lab06.c">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/lab06.c">
 			<Option target="lab06"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/windowtest/windowtest.c">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/windowtest/windowtest.c">
 			<Option target="windowtest"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/CMakeLists.txt">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-01/CMakeLists.txt">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/Lab-01/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab-01\"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-02/CMakeLists.txt">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/Lab-02/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab-02\"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-04/CMakeLists.txt">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/Lab-04/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab-04\"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-05-functions/CMakeLists.txt">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/Lab-05-functions/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab-05-functions\"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/windowtest/CMakeLists.txt">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/windowtest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\windowtest\"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/Lab-06-inf/CMakeLists.txt">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/Lab-06-inf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Lab-06-inf\"/>
 		</Unit>
-		<Unit filename="C:/Users/1337k/CLionProjects/LAB/IiPP-03/CMakeLists.txt">
+		<Unit filename="C:/Users/k0h3z/CLionProjects/LAB/IiPP-03/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\IiPP-03\"/>
 		</Unit>
 	</Project>
