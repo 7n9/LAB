@@ -6,7 +6,6 @@ void zadanie1(){
     int rozmiarTablicy = 50;
     int swap;
     int tablica[rozmiarTablicy];
-    int posortowanaTablica[rozmiarTablicy];
     srand(time(NULL));
     printf("Oryginalna Tablica:\n");
     for (int i = 0; i < rozmiarTablicy; ++i) {
