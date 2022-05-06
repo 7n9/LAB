@@ -10,3 +10,5 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-05-functions" "${PROJECT_SOURCE_DIR}
 add_subdirectory("${PROJECT_SOURCE_DIR}/windowtest" "${PROJECT_SOURCE_DIR}/windowtest/output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-06-inf" "${PROJECT_SOURCE_DIR}/Lab-06-inf/output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/IiPP-03" "${PROJECT_SOURCE_DIR}/IiPP-03/output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/lab-04-polbud" "${PROJECT_SOURCE_DIR}/lab-04-polbud/output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/IiPP-04" "${PROJECT_SOURCE_DIR}/IiPP-04/output")

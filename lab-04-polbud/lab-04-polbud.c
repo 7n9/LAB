@@ -49,6 +49,8 @@ void z2(){
     printf("zm2=%f", zm2);
     printf("\nKoniec.");
 }
+
+
 #define N 10
 void z3(){
     int tab1[N] = {1,2,3,4,5,6,7,8,9,10};

@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\1337k\CLionProjects\LAB
+CMAKE_SOURCE_DIR = C:\Users\k0h3z\CLionProjects\LAB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\1337k\CLionProjects\LAB\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\1337k\CLionProjects\LAB\lab-04-polbud\output\\CMakeFiles\progress.marks
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../lab-04-polbud/output/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\1337k\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\k0h3z\CLionProjects\LAB\lab-04-polbud\output\\CMakeFiles\progress.marks
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../lab-04-polbud/output/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../lab-04-polbud/output/clean
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../lab-04-polbud/output/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../lab-04-polbud/output/preinstall
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../lab-04-polbud/output/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../lab-04-polbud/output/preinstall
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../lab-04-polbud/output/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/rule:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/rule
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/rule
 .PHONY : ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ lab-04-polbud: ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/rule
 
 # fast build rule for target.
 lab-04-polbud/fast:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\lab-04-polbud\output\CMakeFiles\lab-04-polbud.dir\build.make ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/build
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\lab-04-polbud\output\CMakeFiles\lab-04-polbud.dir\build.make ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/build
 .PHONY : lab-04-polbud/fast
 
 lab-04-polbud.obj: lab-04-polbud.c.obj
@@ -134,7 +134,7 @@ lab-04-polbud.obj: lab-04-polbud.c.obj
 
 # target to build an object file
 lab-04-polbud.c.obj:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\lab-04-polbud\output\CMakeFiles\lab-04-polbud.dir\build.make ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/lab-04-polbud.c.obj
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\lab-04-polbud\output\CMakeFiles\lab-04-polbud.dir\build.make ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/lab-04-polbud.c.obj
 .PHONY : lab-04-polbud.c.obj
 
 lab-04-polbud.i: lab-04-polbud.c.i
@@ -142,7 +142,7 @@ lab-04-polbud.i: lab-04-polbud.c.i
 
 # target to preprocess a source file
 lab-04-polbud.c.i:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\lab-04-polbud\output\CMakeFiles\lab-04-polbud.dir\build.make ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/lab-04-polbud.c.i
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\lab-04-polbud\output\CMakeFiles\lab-04-polbud.dir\build.make ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/lab-04-polbud.c.i
 .PHONY : lab-04-polbud.c.i
 
 lab-04-polbud.s: lab-04-polbud.c.s
@@ -150,7 +150,7 @@ lab-04-polbud.s: lab-04-polbud.c.s
 
 # target to generate assembly for a file
 lab-04-polbud.c.s:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\lab-04-polbud\output\CMakeFiles\lab-04-polbud.dir\build.make ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/lab-04-polbud.c.s
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\lab-04-polbud\output\CMakeFiles\lab-04-polbud.dir\build.make ../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/lab-04-polbud.c.s
 .PHONY : lab-04-polbud.c.s
 
 # Help Target
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\1337k\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
