@@ -161,8 +161,8 @@ int main() {
     do{
         printf("\nWybierz zadanie do uruchomienia:\n"   //wyswietlenie "menu"
                "    [1] - Z1 - Zapis i odczyt do/z pliku,\n"
-               "    [2] - Z2 - idkyet,\n"
-               "    [3] - Wyjscie,\n"
+               "    [2] - Z2 - Tablica w pliku tekstowym i binarnym,\n"
+               "    [3] - Wyjscie.\n"
                "[1-3]: ");
         scanf("%d", &decyzja);  //pobór informacji
         switch (decyzja) {  //uruchomienie odpowiedniego zadania lub zakońdzenie działania programu
