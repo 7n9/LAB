@@ -6,12 +6,18 @@
 
 
 void zadanie1(){
-    char c;
-    FILE *zapis, *odczyt;
+    char c;                 //
+    FILE *zapis, *odczyt;   //zmienne
 
-    system("cls");
+    system("cls");  //wyczyszczenie okna konsoli
 
 
+    /* Utworzenie pliku tekstowego w folderze roboczym w trybie W(rite),
+     * Pętla while(){} pobiera znaki od użytkownika aż do pierwszego natrafionego znaku '0'
+     * Równoległy zapis kolejnych znaków za pomocą fputc() /file put char/ do pliku Zadanie1.txt
+     * wraz z natychmiastową zamianą znaku na wielką za pomocą toupper() <ctype.h> (w przypadku liter / cyfry bez zmian),
+     * Zamknięcie pliku roboczego.
+     * */
     zapis = fopen("Pliki_Programu\\Zadanie1.txt", "w");
     printf("======================================\n"
            "Wprowadzanie:\n"
@@ -23,6 +29,16 @@ void zadanie1(){
         fputc(toupper(c), zapis);
     }
     fclose(zapis);
+
+
+    /* Odczyt z pliku tekstowego otwartym w trybie R(ead),
+     * Sprawdzenie czy plik został otwarty poprawnie,
+     * Wyświetlenie komunikatu o odczycie z pliku,
+     * Wczytanie zapisanej tabicy na ekran konsoli znak po znaku
+     * aż do momentu natrafienia na znak kontrolny EOF(end of file),
+     * Zamknięcie pliku roboczego,
+     * Wyświetlenie komunikatu o zakończeniu odczytu.
+     * */
     odczyt = fopen("Pliki_Programu\\Zadanie1.txt", "r");
     if(odczyt == NULL){
         exit(-10);
@@ -41,29 +57,47 @@ void zadanie1(){
 }
 
 void zadanie2(){
-    char c;
+    char c;                                                                                                                 //
     int rozmiarTablicy = 20, tablicaZapisu[rozmiarTablicy][rozmiarTablicy], tablicaOdczytu[rozmiarTablicy][rozmiarTablicy]; //zmienne
-    FILE *txt, *bin;
+    FILE *txt, *bin;                                                                                                        //
+
+    system("cls");  //wyczyszcznenie okna konsoli
 
     //wprowadzenie ziarna dla liczby pseudolosowej
     srand(time(NULL));
 
+
+    /* Utworzenie pliku tekstowego w folderze roboczym w trybie W(rite),
+     * Wygenerowanie losowych liczb w przedziale 1-100 w tablicy 20x20,
+     * Równoległy zapis kolejnych wartości tablicy do pliku Zadanie2.txt.
+     * */
     txt = fopen("Pliki_Programu\\Zadanie2.txt", "w");
-    //utworzenie tablicy
     for (int i = 0; i < rozmiarTablicy; ++i) {
         for (int j = 0; j < rozmiarTablicy; ++j) {
             tablicaZapisu[i][j] = rand() % 101;
-            fprintf(txt, "%5d", tablicaZapisu[i][j]);
+            fprintf(txt, "%5d", tablicaZapisu[i][j]);  //zapis wartości
         }
-        fprintf(txt, "%c", '\n');
+        fprintf(txt, "%c", '\n');   //nowa linia
     }
-    fclose(txt);
+    fclose(txt);   //zamknięcie pliku roboczego
 
+
+    /* Utworzenie pliku binarnego w folderze roboczym w trybie W(rite)B(inary),
+     * Bezpośredni zapis całej tablicy do pliku,
+     * Zamknięcie pliku roboczego.
+     * */
     bin = fopen("Pliki_Programu\\Zadanie2.bin", "wb");
     fwrite(tablicaZapisu, sizeof(tablicaZapisu), 1, bin);
     fclose(bin);
 
 
+    /* Wyświetlenie komunikatu,
+     * Odczyt z pliku tekstowego otwartym w trybie R(ead),
+     * Sprawdzenie czy plik został otwarty poprawnie,
+     * Wczytanie zapisanej tabicy na ekran konsoli znak po znaku
+     * aż do momentu natrafienia na znak kontrolny EOF(end of file),
+     * Zamknięcie pliku roboczego.
+     * */
     printf("=======================================\n"
            "Odczyt z pliku tekstowego:\n"
            "=======================================\n");
@@ -78,6 +112,12 @@ void zadanie2(){
     fclose(txt);
 
 
+    /* Wyświetlenie komunikatu,
+     * Odczyt z pliku binarnego otwartym w trybie R(ead)B(inary),
+     * Sprawdzenie czy plik został otwarty poprawnie,
+     * Wczytanie zapisanej tabicy do zmiennej tablicaOdczytu[][],
+     * Zamknięcie pliku roboczego.
+     * */
     printf("=======================================\n"
            "Odczyt z pliku binarnego:\n"
            "=======================================\n");
@@ -88,6 +128,9 @@ void zadanie2(){
     fread(&tablicaOdczytu, sizeof(tablicaOdczytu), 1 ,bin);
     fclose(bin);
 
+
+    /* Wyświetlenie zczytanej tablicy z pliku binarnego w odpowiednim formacie.
+     * */
     for (int i = 0; i < rozmiarTablicy; ++i) {
         for (int j = 0; j < rozmiarTablicy; ++j) {
             printf("%5d", tablicaOdczytu[i][j]);
@@ -98,13 +141,16 @@ void zadanie2(){
 }
 
 int main() {
-    int decyzja = 0;
+    int decyzja = 0; //zmienna do wyboru programu
 
     /* Sprawdzenie czy folder na pliki istnieje,
      * w przypadku jego braku tworzy folder w ścieżce programu.
+     *
+     * 'sys/stat.h' int stat(char path, struct stat buf) przydaje się do pobierania informacji o plikach lub folderach,
+     * Zwraca 0 jeśli warunek jest spełniony, w przeciwnym przypadku zwraca -1.
      */
-    struct stat st;
-    if(stat("Pliki_Programu", &st) != 0 ) {
+    struct stat buffer;
+    if(stat("Pliki_Programu", &buffer) != 0 ) {
         system("md Pliki_Programu");
     }
 
