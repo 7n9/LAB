@@ -1,8 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <ctype.h>
-#include <sys/stat.h>
 #include <math.h>
 
 double obliczPolePodstawy(double promienPodstawy);
@@ -18,7 +14,7 @@ int sumaRekurencyjna(int liczba);
 
 void zadanie1(){
     double promienPodstawy = 0.1, wysokosc = 0.1;
-    while(promienPodstawy != 0 && wysokosc != 0){
+    do{
         printf("Podaj promien podstawy: ");
         scanf("%lf", &promienPodstawy);
         printf("Podaj wysokosc: ");
@@ -34,8 +30,13 @@ void zadanie1(){
                obliczPolePobocznicy(promienPodstawy, wysokosc),
                obliczPolePodstawy(promienPodstawy),
                obliczPoleCalkowite(promienPodstawy, wysokosc));
-    }
+    } while (promienPodstawy != 0 || wysokosc != 0);
 }
+
+/*(true  || true ) == true
+(true  || false) == true
+(false || true ) == true
+(false || false) == false*/
 
 void zadanie2(){
     int liczba = 1;
@@ -60,11 +61,16 @@ void zadanie2(){
     }
 }
 
+int globalnyLicznikDlaSumyRekurencyjnej;
+
 void zadanie3(){
     int liczba;
+    globalnyLicznikDlaSumyRekurencyjnej = 0;
     printf("Wprowadz liczbe naturalna: ");
     scanf("%d", &liczba);
+    puts("---------------------------------------");
     sumaRekurencyjna(liczba);
+    puts("---------------------------------------");
 }
 
 int main() {
@@ -79,7 +85,7 @@ int main() {
                "    [1] - Z1 - walec,\n"
                "    [2] - Z2 - idk,\n"
                "    [3] - Z3 - Suma Rekurencyjna,\n"
-               "    [4] - Wyjscie."
+               "    [4] - Wyjscie.\n"
                "[1-4]: ");
         scanf("%d", &decyzja);  //pobór informacji
         switch (decyzja) {  //uruchomienie odpowiedniego zadania lub zakońdzenie działania programu
@@ -138,23 +144,12 @@ int podzielnaPrzezPiec(int liczba){
 }
 
 int sumaRekurencyjna(int liczba){
-
-    /* +1 do każdej instancji
-     *
-     *
-     *
-     * */
-    int s, licznik = 1;
+    int s;
     if(liczba < 0 || liczba == 0){
-        puts("Wprowadzono niepoprawna liczbe.");
         return 0;
+    } else {
+        s = liczba + sumaRekurencyjna(liczba - 1);
+        printf("Suma od 1 do %d = %d\n", ++globalnyLicznikDlaSumyRekurencyjnej, s);
+        return s;
     }
-    printf("Suma od 1 do %d: %d\n", licznik, liczba + (liczba-1));
-    licznik += 1;
-    if(liczba == 1) {
-        return 1;
-    }
-
-    s = 1 + sumaRekurencyjna(liczba + 1);
-    return s;
 }
