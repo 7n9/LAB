@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/k0h3z/CLionProjects/LAB/lab-04-polbud
+# Install script for directory: C:/Users/1337k/CLionProjects/LAB/lab-04-polbud
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

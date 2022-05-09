@@ -12,3 +12,4 @@ add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-06-inf" "${PROJECT_SOURCE_DIR}/Lab-0
 add_subdirectory("${PROJECT_SOURCE_DIR}/IiPP-03" "${PROJECT_SOURCE_DIR}/IiPP-03/output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/lab-04-polbud" "${PROJECT_SOURCE_DIR}/lab-04-polbud/output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/IiPP-04" "${PROJECT_SOURCE_DIR}/IiPP-04/output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/IiPP-05" "${PROJECT_SOURCE_DIR}/IiPP-05/output")
