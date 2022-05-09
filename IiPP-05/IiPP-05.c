@@ -13,7 +13,7 @@ int podzielnaPrzezPiec(int liczba);
 int sumaRekurencyjna(int liczba);
 
 void zadanie1(){
-    double promienPodstawy = 0.1, wysokosc = 0.1;
+    double promienPodstawy, wysokosc;
     do{
         printf("Podaj promien podstawy: ");
         scanf("%lf", &promienPodstawy);
@@ -22,6 +22,7 @@ void zadanie1(){
         if(promienPodstawy == 0.0 && wysokosc == 0.0){
             break;
         }
+        puts("---------------------------------------");
         printf("Objetosc: %lf\n"
                "Pole pobocznicy: %lf\n"
                "Pole podstawy: %lf\n"
@@ -30,6 +31,7 @@ void zadanie1(){
                obliczPolePobocznicy(promienPodstawy, wysokosc),
                obliczPolePodstawy(promienPodstawy),
                obliczPoleCalkowite(promienPodstawy, wysokosc));
+        puts("---------------------------------------");
     } while (promienPodstawy != 0 || wysokosc != 0);
 }
 
@@ -61,7 +63,7 @@ void zadanie2(){
     }
 }
 
-int globalnyLicznikDlaSumyRekurencyjnej;
+int globalnyLicznikDlaSumyRekurencyjnej; //?????????????????
 
 void zadanie3(){
     int liczba;
