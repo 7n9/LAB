@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/k0h3z/CLionProjects/LAB/IiPP-04/IiPP-04.c" "../IiPP-04/output/CMakeFiles/IiPP-04.dir/IiPP-04.c.obj" "gcc" "../IiPP-04/output/CMakeFiles/IiPP-04.dir/IiPP-04.c.obj.d"
+  "C:/Users/1337k/CLionProjects/LAB/IiPP-04/IiPP-04.c" "../IiPP-04/output/CMakeFiles/IiPP-04.dir/IiPP-04.c.obj" "gcc" "../IiPP-04/output/CMakeFiles/IiPP-04.dir/IiPP-04.c.obj.d"
   )
 
 # Targets to which this target links.

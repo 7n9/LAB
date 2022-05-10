@@ -50,14 +50,18 @@ void zadanie2(){
         }
         puts("---------------------------------------");
         puts("Podana liczba calkowita jest:");
-        if(podzielnaPrzezDwa(liczba)){
-            printf("\t-podzielna przez 2; %d / 2 = %d\n", liczba, liczba/2);
-        }
-        if(podzielnaPrzezTrzy(liczba)){
-            printf("\t-podzielna przez 3; %d / 3 = %d\n", liczba, liczba/3);
-        }
-        if(podzielnaPrzezPiec(liczba)){
-            printf("\t-podzielna przez 5; %d / 5 = %d\n", liczba, liczba/5);
+        if(podzielnaPrzezDwa(liczba) || podzielnaPrzezTrzy(liczba) || podzielnaPrzezPiec(liczba)) {
+            if (podzielnaPrzezDwa(liczba)) {
+                printf("\t-podzielna przez 2; %d / 2 = %d\n", liczba, liczba / 2);
+            }
+            if (podzielnaPrzezTrzy(liczba)) {
+                printf("\t-podzielna przez 3; %d / 3 = %d\n", liczba, liczba / 3);
+            }
+            if (podzielnaPrzezPiec(liczba)) {
+                printf("\t-podzielna przez 5; %d / 5 = %d\n", liczba, liczba / 5);
+            }
+        } else{
+            printf("\t-niepodzielna przez 2, 3 lub 5\n");
         }
         puts("---------------------------------------");
     }

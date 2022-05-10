@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/k0h3z/CLionProjects/LAB/lab-04-polbud/lab-04-polbud.c" "../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/lab-04-polbud.c.obj" "gcc" "../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/lab-04-polbud.c.obj.d"
+  "C:/Users/1337k/CLionProjects/LAB/lab-04-polbud/lab-04-polbud.c" "../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/lab-04-polbud.c.obj" "gcc" "../lab-04-polbud/output/CMakeFiles/lab-04-polbud.dir/lab-04-polbud.c.obj.d"
   )
 
 # Targets to which this target links.
