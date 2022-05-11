@@ -106,9 +106,9 @@ void zadanie3(){
     globalnyLicznikDlaSumyRekurencyjnej = 0;
     puts("----------------------------------------------------");
     printf("Wprowadz liczbe naturalna: ");
-    scanf("%d", &liczba); //pobor informacji
+    scanf("%d", &liczba);   //pobor informacji
     puts("----------------------------------------------------");
-    printf("Rekurencyjne dodawanie liczb naturalnych od 1 do %d", liczba);
+    printf("Rekurencyjne dodawanie liczb naturalnych od 1 do %d\n", liczba);
     puts("----------------------------------------------------");
     sumaRekurencyjna(liczba); //funkcja rekurencyjna
     if(liczba <= 0){
