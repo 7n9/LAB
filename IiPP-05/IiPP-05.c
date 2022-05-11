@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-
+            //Deklaracje funkcji
 
 double obliczPolePodstawy(double promienPodstawy);                      //Deklaracje funkcji dla zadania 1
 double obliczPolePobocznicy(double promienPodstawy, double wysokosc);   //
@@ -16,26 +16,26 @@ int sumaRekurencyjna(int liczba);                                       //Deklar
 
     /* Zadanie1
      *
-     * Zadanie 1 pobiera od uzytkownika promien podstawy walca
-     * oraz jego wysokosc, jesli wartosci nie sa zerowe nastepuje
-     * obliczenie objetosci, pola pobocznicy, pola podstawy oraz calkowitego
+     * Zadanie 1 pobiera od użytkownika promień podstawy walca
+     * oraz jego wysokość, jeśli wartości nie są zerowe, następuje
+     * obliczenie objętości, pola pobocznicy, pola podstawy oraz całkowitego
      * pola walca wraz z wypisaniem wartości na ekran konsoli.
      * */
 void zadanie1(){
     double promienPodstawy, wysokosc;
     do{
-        //pobor informacji od uzytkownika
+        //pobór informacji od użytkownika
         printf("Podaj promien podstawy: ");
         scanf("%lf", &promienPodstawy);
         printf("Podaj wysokosc: ");
         scanf("%lf", &wysokosc);
 
-        //wyjscie z programu jesli wartosci sa zerowe
+        //wyjście z programu, jeśli wartości są zerowe
         if(promienPodstawy == 0.0 && wysokosc == 0.0){
             break;
         }
 
-        //wypisanie wartosci na ekran
+        //wypisanie wartości na ekran
         puts("---------------------------------------");
         printf("Objetosc: %lf\n"
                "Pole pobocznicy: %lf\n"
@@ -47,27 +47,27 @@ void zadanie1(){
                obliczPoleCalkowite(promienPodstawy, wysokosc));
         puts("---------------------------------------");
 
-        //warunek zakonczenia petli
+        //warunek zakończenia pętli
     } while (promienPodstawy != 0 || wysokosc != 0);
 }
 
     /* Zadanie 2
      *
-     * W zadaniu 2 uzytkownik wprowadza liczbe calkowita.
-     * Program sprawdza podzielnosc sprowadzonej liczby przez 2, 3 i 5 a nastepnie
-     * zwraca odpowiednie komunikaty na ekran kosoli.
+     * W zadaniu 2 użytkownik wprowadza liczbę całkowitą.
+     * Program sprawdza podzielność sprowadzonej liczby przez 2, 3 i 5, a następnie
+     * zwraca odpowiednie komunikaty na ekran konsoli.
      * */
 void zadanie2(){
     int liczba = 1;//zmienna
 
-    while (liczba != 0){//warunek wyjscia
+    while (liczba != 0){//warunek wyjścia
         puts("Podaj liczbe calkowita: ");
-        scanf("%d", &liczba);//pobor informacji
-        if(liczba == 0){//warunek wyjscia
+        scanf("%d", &liczba);//pobór informacji
+        if(liczba == 0){//warunek wyjścia
             break;
         }
 
-        //wypisanie odpowiednich komunikatow na ekran.
+        //wypisanie odpowiednich komunikatów na ekran.
         puts("---------------------------------------");
         puts("Podana liczba calkowita jest:");
         if(podzielnaPrzezDwa(liczba) || podzielnaPrzezTrzy(liczba) || podzielnaPrzezPiec(liczba)) {
@@ -88,9 +88,9 @@ void zadanie2(){
 }
 
 
-    /* Globalny licznik dla sumy zliczajacy ilosc stopni rekurencji (zageszcenie),
+    /* Globalny licznik dla sumy zliczający ilość stopni rekurencji (zagęszczenie),
      * przydatny do zliczania sumy 'od 1 do n' liczb naturalnych gdzie n jest
-     * liczba dodawana i licznikiem jednoczesnie.
+     * liczbą dodawaną i licznikiem jednocześnie.
      * */
 int globalnyLicznikDlaSumyRekurencyjnej;
 
@@ -108,6 +108,9 @@ void zadanie3(){
     scanf("%d", &liczba); //pobor informacji
     puts("---------------------------------------");
     sumaRekurencyjna(liczba); //funkcja rekurencyjna
+    if(liczba <= 0){
+        puts("Wprowadzono zla liczbe!");
+    }
     puts("---------------------------------------");
 }
 
@@ -120,13 +123,13 @@ int main() {
      */
     do{
         printf("\nWybierz zadanie do uruchomienia:\n"   //wyswietlenie "menu"
-               "    [1] - Z1 - walec,\n"
-               "    [2] - Z2 - idk,\n"
+               "    [1] - Z1 - Walec,\n"
+               "    [2] - Z2 - Podzielnosc liczby,\n"
                "    [3] - Z3 - Suma Rekurencyjna,\n"
                "    [4] - Wyjscie.\n"
                "[1-4]: ");
         scanf("%d", &decyzja);  //pobór informacji
-        switch (decyzja) {  //uruchomienie odpowiedniego zadania lub zakońdzenie działania programu
+        switch (decyzja) {  //uruchomienie odpowiedniego zadania lub zakończenie działania programu
             case 1:
                 zadanie1();
                 break;
@@ -142,6 +145,10 @@ int main() {
     }while(decyzja != 4);   //warunek wyjścia
     return 0;
 }
+
+
+            //Definicje funkcji
+
 
     /* Funkcja obliczajaca i zwracajaca pole podstawy walca (pole kola = PI*r^2)
      * Uzywa wartosci M_PI zdeklarownej w <math.h>
