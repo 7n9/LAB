@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/k0h3z/CLionProjects/LAB/Lab-02-test
+# Install script for directory: C:/Users/k0h3z/CLionProjects/LAB/IiPP-02-test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

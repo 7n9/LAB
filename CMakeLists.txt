@@ -3,8 +3,8 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-01" "${PROJECT_SOURCE_DIR}/Lab-01/output")
-add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-02" "${PROJECT_SOURCE_DIR}/Lab-02/output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/IiPP-01" "${PROJECT_SOURCE_DIR}/IiPP-01/output")
+add_subdirectory("${PROJECT_SOURCE_DIR}/IiPP-02" "${PROJECT_SOURCE_DIR}/IiPP-02/output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-04" "${PROJECT_SOURCE_DIR}/Lab-04/output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/Lab-05-functions" "${PROJECT_SOURCE_DIR}/Lab-05-functions/output")
 add_subdirectory("${PROJECT_SOURCE_DIR}/windowtest" "${PROJECT_SOURCE_DIR}/windowtest/output")
