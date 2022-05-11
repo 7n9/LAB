@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\k0h3z\CLionProjects\LAB\Lab-01\output\\CMakeFiles\progress.marks
-	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-01/output/all
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles C:\Users\k0h3z\CLionProjects\LAB\IiPP-01\output\\CMakeFiles\progress.marks
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IiPP-01/output/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-01/output/clean
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IiPP-01/output/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,12 +102,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-01/output/preinstall
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IiPP-01/output/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-01/output/preinstall
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IiPP-01/output/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -116,42 +116,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-../Lab-01/output/CMakeFiles/lab01.dir/rule:
-	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../Lab-01/output/CMakeFiles/lab01.dir/rule
-.PHONY : ../Lab-01/output/CMakeFiles/lab01.dir/rule
+../IiPP-01/output/CMakeFiles/IiPP-01.dir/rule:
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ../IiPP-01/output/CMakeFiles/IiPP-01.dir/rule
+.PHONY : ../IiPP-01/output/CMakeFiles/IiPP-01.dir/rule
 
 # Convenience name for target.
-lab01: ../Lab-01/output/CMakeFiles/lab01.dir/rule
-.PHONY : lab01
+IiPP-01: ../IiPP-01/output/CMakeFiles/IiPP-01.dir/rule
+.PHONY : IiPP-01
 
 # fast build rule for target.
-lab01/fast:
-	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-01\output\CMakeFiles\lab01.dir\build.make ../Lab-01/output/CMakeFiles/lab01.dir/build
-.PHONY : lab01/fast
+IiPP-01/fast:
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IiPP-01\output\CMakeFiles\IiPP-01.dir\build.make ../IiPP-01/output/CMakeFiles/IiPP-01.dir/build
+.PHONY : IiPP-01/fast
 
-lab01.obj: lab01.c.obj
-.PHONY : lab01.obj
+IiPP-01.obj: IiPP-01.c.obj
+.PHONY : IiPP-01.obj
 
 # target to build an object file
-lab01.c.obj:
-	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-01\output\CMakeFiles\lab01.dir\build.make ../Lab-01/output/CMakeFiles/lab01.dir/lab01.c.obj
-.PHONY : lab01.c.obj
+IiPP-01.c.obj:
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IiPP-01\output\CMakeFiles\IiPP-01.dir\build.make ../IiPP-01/output/CMakeFiles/IiPP-01.dir/IiPP-01.c.obj
+.PHONY : IiPP-01.c.obj
 
-lab01.i: lab01.c.i
-.PHONY : lab01.i
+IiPP-01.i: IiPP-01.c.i
+.PHONY : IiPP-01.i
 
 # target to preprocess a source file
-lab01.c.i:
-	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-01\output\CMakeFiles\lab01.dir\build.make ../Lab-01/output/CMakeFiles/lab01.dir/lab01.c.i
-.PHONY : lab01.c.i
+IiPP-01.c.i:
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IiPP-01\output\CMakeFiles\IiPP-01.dir\build.make ../IiPP-01/output/CMakeFiles/IiPP-01.dir/IiPP-01.c.i
+.PHONY : IiPP-01.c.i
 
-lab01.s: lab01.c.s
-.PHONY : lab01.s
+IiPP-01.s: IiPP-01.c.s
+.PHONY : IiPP-01.s
 
 # target to generate assembly for a file
-lab01.c.s:
-	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\Lab-01\output\CMakeFiles\lab01.dir\build.make ../Lab-01/output/CMakeFiles/lab01.dir/lab01.c.s
-.PHONY : lab01.c.s
+IiPP-01.c.s:
+	cd /d C:\Users\k0h3z\CLionProjects\LAB\cmake-build-debug && $(MAKE) $(MAKESILENT) -f ..\IiPP-01\output\CMakeFiles\IiPP-01.dir\build.make ../IiPP-01/output/CMakeFiles/IiPP-01.dir/IiPP-01.c.s
+.PHONY : IiPP-01.c.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... lab01
-	@echo ... lab01.obj
-	@echo ... lab01.i
-	@echo ... lab01.s
+	@echo ... IiPP-01
+	@echo ... IiPP-01.obj
+	@echo ... IiPP-01.i
+	@echo ... IiPP-01.s
 .PHONY : help
 
 

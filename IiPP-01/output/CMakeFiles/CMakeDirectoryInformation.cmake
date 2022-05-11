@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Users/k0h3z/CLionProjects/LAB")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/k0h3z/CLionProjects/LAB/Lab-01/output")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/k0h3z/CLionProjects/LAB/IiPP-01/output")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
