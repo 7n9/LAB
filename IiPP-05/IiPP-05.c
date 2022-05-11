@@ -108,12 +108,14 @@ void zadanie3(){
     printf("Wprowadz liczbe naturalna: ");
     scanf("%d", &liczba);   //pobor informacji
     puts("----------------------------------------------------");
+    if(liczba <= 0){
+        puts("Wprowadzono zla liczbe!");
+        puts("----------------------------------------------------");
+        return;
+    }
     printf("Rekurencyjne dodawanie liczb naturalnych od 1 do %d\n", liczba);
     puts("----------------------------------------------------");
     sumaRekurencyjna(liczba); //funkcja rekurencyjna
-    if(liczba <= 0){
-        puts("Wprowadzono zla liczbe!");
-    }
     puts("----------------------------------------------------");
 }
 
