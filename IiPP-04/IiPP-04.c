@@ -166,6 +166,11 @@ int main() {
      * 'sys/stat.h' int stat(char path, struct stat buf) przydaje się do pobierania informacji o plikach lub folderach,
      * Zwraca 0 jeśli warunek jest spełniony, w przeciwnym przypadku zwraca -1.
      */
+
+
+    //Możecie pominąć, mi sie czasem na komendzie ten stat rozpierdalał to nw czy warto
+
+
     struct stat buffer;
     if(stat("Pliki_Programu", &buffer) != 0 ) {
         system("md Pliki_Programu");
