@@ -57,9 +57,9 @@ void zadanie1(){
 }
 
 void zadanie2(){
-    char c;                                                                                                                 //
-    int rozmiarTablicy = 20, tablicaZapisu[rozmiarTablicy][rozmiarTablicy], tablicaOdczytu[rozmiarTablicy][rozmiarTablicy]; //zmienne
-    FILE *txt, *bin;                                                                                                        //
+    char c;                                                                                                                          //
+    int decyzja, rozmiarTablicy = 20, tablicaZapisu[rozmiarTablicy][rozmiarTablicy], tablicaOdczytu[rozmiarTablicy][rozmiarTablicy]; //zmienne
+    FILE *txt, *bin;                                                                                                                 //
 
     system("cls");  //wyczyszcznenie okna konsoli
 
@@ -67,10 +67,14 @@ void zadanie2(){
     srand(time(NULL));
 
 
-    /* Utworzenie pliku tekstowego w folderze roboczym w trybie W(rite),
+    /* Wyświetlenie komunikatu,
+     * Utworzenie pliku tekstowego w folderze roboczym w trybie W(rite),
      * Wygenerowanie losowych liczb w przedziale 1-100 w tablicy 20x20,
      * Równoległy zapis kolejnych wartości tablicy do pliku Zadanie2.txt.
      * */
+    printf("=======================================\n"
+           "Generowanie i zapis tablicy...\n"
+           "=======================================\n");
     txt = fopen("Pliki_Programu\\Zadanie2.txt", "w");
     for (int i = 0; i < rozmiarTablicy; ++i) {
         for (int j = 0; j < rozmiarTablicy; ++j) {
@@ -88,8 +92,21 @@ void zadanie2(){
      * */
     bin = fopen("Pliki_Programu\\Zadanie2.bin", "wb");
     fwrite(tablicaZapisu, sizeof(tablicaZapisu), 1, bin);
-    fclose(bin);
+    fclose(bin);    //zamknięcie pliku roboczego
 
+
+    //Pobranie od użytkownika decyzji o wyswietleniu plików
+    do{
+        printf("Czy wyswietlic pliki?\n"
+           "\t[0] - Nie\n"
+           "\t[1] - Tak\n"
+           "[0/1]: ");
+        scanf("%d", &decyzja);
+    }while(decyzja !=0 && decyzja != 1);
+
+    if(decyzja == 0){
+        return;
+    }
 
     /* Wyświetlenie komunikatu,
      * Odczyt z pliku tekstowego otwartym w trybie R(ead),
