@@ -1,0 +1,39 @@
+---------------------------------------
+Wprowadzone wartosci:
+	Promien podstawy: 2137.000000
+	Wysokosc walca: 2137.000000
+---------------------------------------
+Obliczenia:
+---------------------------------------
+Objetosc: 30659385010.005917
+Pole pobocznicy: 28693855.882083
+Pole podstawy: 14346927.941042
+Calkowite pole powierzchni: 57387711.764166
+---------------------------------------
+
+---------------------------------------
+Wprowadzone wartosci:
+	Promien podstawy: 2.000000
+	Wysokosc walca: 2.000000
+---------------------------------------
+Obliczenia:
+---------------------------------------
+Objetosc: 25.132741
+Pole pobocznicy: 25.132741
+Pole podstawy: 12.566371
+Calkowite pole powierzchni: 50.265482
+---------------------------------------
+
+---------------------------------------
+Wprowadzone wartosci:
+	Promien podstawy: 69.000000
+	Wysokosc walca: 1337.000000
+---------------------------------------
+Obliczenia:
+---------------------------------------
+Objetosc: 19997672.947942
+Pole pobocznicy: 579642.694143
+Pole podstawy: 14957.122624
+Calkowite pole powierzchni: 609556.939391
+---------------------------------------
+

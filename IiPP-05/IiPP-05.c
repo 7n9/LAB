@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-
+#include <string.h>
+#define MAX_LEN 128
             //Deklaracje funkcji
 
 double obliczPolePodstawy(double promienPodstawy);                      //Deklaracje funkcji dla zadania 1
@@ -22,7 +23,15 @@ int sumaRekurencyjna(int liczba);                                       //Deklar
      * pola walca wraz z wypisaniem wartości na ekran konsoli.
      * */
 void zadanie1(){
+    FILE *zapis;
     double promienPodstawy, wysokosc;
+    char nazwapliku[MAX_LEN];
+    char ext[] = ".txt";
+
+    printf("Podaj nazwe pliku: ");
+    scanf("%s", &nazwapliku);
+    strcat(nazwapliku, ext);
+    zapis = fopen(nazwapliku, "w");
     do{
         //pobór informacji od użytkownika
         printf("Podaj promien podstawy: ");
@@ -40,15 +49,33 @@ void zadanie1(){
         printf("Objetosc: %lf\n"
                "Pole pobocznicy: %lf\n"
                "Pole podstawy: %lf\n"
-               "Calkowite pole powierzchni: %lf\n\n",
+               "Calkowite pole powierzchni: %lf\n",
                obliczObjetosc(promienPodstawy, wysokosc),
                obliczPolePobocznicy(promienPodstawy, wysokosc),
                obliczPolePodstawy(promienPodstawy),
                obliczPoleCalkowite(promienPodstawy, wysokosc));
         puts("---------------------------------------");
-
+        fprintf(zapis ,"---------------------------------------\n"
+                       "Wprowadzone wartosci:\n"
+                       "\tPromien podstawy: %lf\n"
+                       "\tWysokosc walca: %lf\n"
+                       "---------------------------------------\n"
+                       "Obliczenia:\n"
+                       "---------------------------------------\n"
+                       "Objetosc: %lf\n"
+                       "Pole pobocznicy: %lf\n"
+                       "Pole podstawy: %lf\n"
+                       "Calkowite pole powierzchni: %lf\n"
+                       "---------------------------------------\n\n",
+                       promienPodstawy,
+                       wysokosc,
+                       obliczObjetosc(promienPodstawy, wysokosc),
+                       obliczPolePobocznicy(promienPodstawy, wysokosc),
+                       obliczPolePodstawy(promienPodstawy),
+                       obliczPoleCalkowite(promienPodstawy, wysokosc));
         //warunek zakończenia pętli
     } while (promienPodstawy != 0 || wysokosc != 0);
+    fclose(zapis);
 }
 
     /* Zadanie 2
