@@ -17,10 +17,11 @@ int sumaRekurencyjna(int liczba);                                       //Deklar
 
     /* Zadanie1
      *
-     * Zadanie 1 pobiera od użytkownika promień podstawy walca
+     * Zadanie 1 pobiera od użytkownika nazwe pliku, "kopiuje" do niego rozszerzenie
+     * i otwiera go a następnie pobiera promień podstawy walca
      * oraz jego wysokość, jeśli wartości nie są zerowe, następuje
      * obliczenie objętości, pola pobocznicy, pola podstawy oraz całkowitego
-     * pola walca wraz z wypisaniem wartości na ekran konsoli.
+     * pola walca wraz z wypisaniem wartości na ekran konsoli oraz zapis do pliku.
      * */
 void zadanie1(){
     FILE *zapis;
@@ -29,9 +30,9 @@ void zadanie1(){
     char ext[] = ".txt";
 
     printf("Podaj nazwe pliku: ");
-    scanf("%s", &nazwapliku);
-    strcat(nazwapliku, ext);
-    zapis = fopen(nazwapliku, "w");
+    scanf("%s", &nazwapliku); //pobór nazwy
+    strcat(nazwapliku, ext); //dodanie rozszerzenia
+    zapis = fopen(nazwapliku, "w"); //otwarcie pliku roboczego
     do{
         //pobór informacji od użytkownika
         printf("Podaj promien podstawy: ");
@@ -75,7 +76,7 @@ void zadanie1(){
                        obliczPoleCalkowite(promienPodstawy, wysokosc));
         //warunek zakończenia pętli
     } while (promienPodstawy != 0 || wysokosc != 0);
-    fclose(zapis);
+    fclose(zapis); //zamknięcie pliku roboczego
 }
 
     /* Zadanie 2
